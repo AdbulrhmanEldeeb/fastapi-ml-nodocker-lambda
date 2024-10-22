@@ -1,0 +1,6 @@
+pip3 install -t dependencies -r requirements.txt
+
+create aws_lambda_artifact.zip from dependencies
+
+Compress-Archive -Path main.py -DestinationPath aws_lambda_artifact.zip -Update
+

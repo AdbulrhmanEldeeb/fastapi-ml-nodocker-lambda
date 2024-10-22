@@ -1,0 +1,5 @@
+*.pyc
+lib
+*.zip
+dependencies
+fastapi-ml-ec2.pem
